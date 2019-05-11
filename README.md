@@ -3,22 +3,23 @@
 B R A I N S T O R M I N G 
 
 Contact page for me, Mel Jones
-also a resume/cv of shorts
+also a resume/cv of sorts
 
 S E C T I O N S
 
 - Introduction/About me - 
 
-- Langauge proficency -
-HTML
-CSS
-JavaScript
+- Language proficiency -
+ -- HTML
+ -- CSS
+ -- JavaScript
 
 
-- Education/ Course completed -
-Jonas Schmedtman
-Andrei Neagoi
-Scrimba/FCC
+- Education/ Courses completed -
+ -- Jonas Schmedtman https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/
+ -- Andrei Neagoi https://www.udemy.com/the-complete-web-developer-zero-to-mastery/
+ -- Scrimba https://scrimba.com/g/gflexbox
+ -- FCC https://scrimba.com/g/gregularexpressions
 
 - Links to projects - 
 
@@ -27,8 +28,9 @@ Scrimba/FCC
 - Interests / work & non work - 
 
 
-L A Y O U T 
-do these refresher courses before you begin!..
+L A Y O U T
+
+Do these refresher courses before you begin!..
 https://scrimba.com/g/ghtml
 https://scrimba.com/g/gintrotocss
 https://scrimba.com/g/gcssvariables
@@ -73,14 +75,14 @@ https://css-tricks.com/an-introduction-to-web-components/
 
 
 
-Hierarchy
+H i e r a r c h y
 How does the design guide your focus? What information is highlighted? How does color and text treatment signal the importance of certain elements?
 
-Content
+C o n t e n t
 What specific wording was chosen for this experience? What content is visible and more interestingly, what content isn’t? How is spacing used to frame the content?
 
-Intent
+I n t e n t
 Why would someone open this app? What problem does it solve? How could the design help to solve that problem even better?
 
-Audience
+A u d i e n c e
 Who are the people using this product? How might their use cases be different from yours? How does the design serve these use cases?
