@@ -84,5 +84,3 @@ Why would someone open this app? What problem does it solve? How could the desig
 
 Audience
 Who are the people using this product? How might their use cases be different from yours? How does the design serve these use cases?
-
-
