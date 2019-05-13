@@ -9,16 +9,17 @@ S E C T I O N S
 
 - Introduction/About me - 
 
-- Langauge proficency -
+- Language proficency -
 HTML
 CSS
 JavaScript
 
 
-- Education/ Course completed -
+- Education/ Courses completed -
 Jonas Schmedtman
 Andrei Neagoi
-Scrimba/FCC
+Scrimba 
+FCC
 
 - Links to projects - 
 
