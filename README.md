@@ -3,7 +3,7 @@
 B R A I N S T O R M I N G 
 
 Contact page for me, Mel Jones
-also a resume/cv of shorts
+also a resume/cv of sorts
 
 S E C T I O N S
 
@@ -85,3 +85,34 @@ Why would someone open this app? What problem does it solve? How could the desig
 
 Audience
 Who are the people using this product? How might their use cases be different from yours? How does the design serve these use cases?
+
+
+
+Bio (or about page)
+
+Photo
+builds trust
+
+Call to action (CTA)
+a button
+
+Contact Info
+email address
+and social media, twitter, linkedin, insta
+
+Skills
+what tech you know
+what skills are
+or services
+
+Experience
+projects
+evidence to the skills listed
+
+optional.. volunteer work, education, awards
+
+critical.. Perspective
+who you are trying to attract
+what theyre looking for
+
+
