@@ -116,3 +116,12 @@ who you are trying to attract
 what theyre looking for
 
 
+New users are coming to your product with a sense of uncertainty and a host of existing habits.
+
+- Innovation and Creativity
+- Enthusiasm
+- Teamwork
+- Willing to Grow Through Criticism
+
+
+
