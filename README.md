@@ -138,9 +138,9 @@ to focus on the moment make the ordinary extraordianry, making the normal specia
 building community
 
 
-subtle
-sensual
-feel/smell
-gentle joyfulness
-empowering
-well being
+- subtle
+- sensual
+- feel/smell
+- gentle joyfulness
+- empowering
+- well being
