@@ -157,7 +157,9 @@ p {
 }
 
 
-
+#hand-icon {
+  color: rgb(74, 90, 211);
+}
 
 
 
@@ -212,7 +214,7 @@ p {
 .grid-h3 {
   grid-column: 2 / span 3;
   grid-row: 2 / span 1;
-  border-top: 1px solid black;
+  border-top: 1px solid rgb(74, 90, 211);
   display: flex;
   align-items: center;
 }
@@ -220,7 +222,7 @@ p {
 .social-container {
   grid-column: 1 / span 1;
   grid-row: 1 / span 2;
-  border-right: 1px solid black;
+  border-right: 1px solid rgb(74, 90, 211);
   list-style: none;
   display: flex;
   align-items: flex-end;
