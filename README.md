@@ -131,3 +131,16 @@ New compassionate Tech values
 - Cooperation
 - Learning
 - Being a mentor
+
+HYGGE
+to focus on the moment make the ordinary extraordianry, making the normal special
+
+building community
+
+
+subtle
+sensual
+feel/smell
+gentle joyfulness
+empowering
+well being
