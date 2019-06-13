@@ -124,4 +124,10 @@ New users are coming to your product with a sense of uncertainty and a host of e
 - Willing to Grow Through Criticism
 
 
-
+@laurieontech
+New compassionate Tech values
+- Humility
+- Inclusion
+- Cooperation
+- Learning
+- Being a mentor
