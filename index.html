@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portfolio</title>
-  <!-- <link rel="stylesheet" type="text/css" href="./ionicons.min.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,400i,600|Noto+Sans+KR:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
 
@@ -21,62 +23,71 @@ what theyre looking for -->
 <!-- and find some people to collab with!! -->
 
 <nav class="pageNav">
-  <div class="nav-container">
-    <ul>
-      <li><a href=/ ><span><ion-icon name="hand"></ion-icon></span></a></li>
-      <li><a href=/ ><span>Work</span></a></li>
-      <li><a href=/ ><span>Skills</span></a></li>
-      <li><a href=/ ><span>Contact</span></a></li>
-    </ul>
-    
-    <!--  -->
-
-  </div>
+  <ul class="nav-container">
+    <li><a href=/ ><span><ion-icon id="hand-icon" name="hand"></ion-icon></span></a></li>
+    <li><a href=/ ><span>Work</span></a></li>
+    <li><a href=/ ><span>Skills</span></a></li>
+    <li><a href=/ ><span>Contact</span></a></li>
+  </ul>
 </nav>
 
 <header class="head">
-  <div class="head-container">
-    <h1>Mel Jones</h1>
-    <span><img src="./moody-bones.jpg" width="100px"></span><br>
-    <h3>Mel is a Self-Taught Frontend Dev blah blah some bio here</h3>
-    <span>jones.mel@gmail.com</span>
-    <ul>
-      <li><a href=/ ><span><ion-icon id="mail" name="mail"></ion-icon></span></a></li>
-      <li><a href=/ ><span><ion-icon id="linkedin" name="logo-linkedin"></ion-icon></span></a></li>
-      <li><a href=/ ><span><ion-icon id="twitter" name="logo-twitter"></ion-icon></span></a></li>
-      <li><a href=/ ><span><ion-icon id="instagram" name="logo-instagram"></ion-icon></span></a></li>
+  <div class="size-container">
+    <div class="head-container">
+    <!-- <span class="grid-photo">
+      <img src="./moody-bones.jpg" width="100px">
+    </span> -->
+    <div class="grid-h1">
+      <h1>Mel Jones</h1>
+    </div>
+    <div class="grid-h3">
+        <h3>Mel is a Self-Taught Frontend Dev blah blah some bio here</h3>
+    </div>
+    <ul class="social-container">
+      <li><a href=/ ><span><ion-icon class="social-links" id="mail" name="mail"></ion-icon></span></a></li>
+      <li><a href=/ ><span><ion-icon class="social-links" id="linkedin" name="logo-linkedin"></ion-icon></span></a></li>
+      <li><a href=/ ><span><ion-icon class="social-links" id="twitter" name="logo-twitter"></ion-icon></span></a></li>
+      <li><a href=/ ><span><ion-icon class="social-links" id="instagram" name="logo-instagram"></ion-icon></span></a></li>
     </ul>
   </div>
+  </div>
+  
 </header>
 
 <!-- see https://www.madebyeno.com/ for work layout -->
 <section class="work-container">
-  <h3>Work</h3>
-  <h2>Empathy is the Cornerstone</h2>
-  <!-- <span>UI & UX Design  •  Product Strategy  •  Clean Code</span> -->
-  <p>Passionate about CSS, Product Strategy, Clean Code, and Education.</p>
-  <ul>
-    <li><span>Note: Make sense of the visuals through writing</span></li>
-    <li><span>Digital Shoebox</span></li>
-    <li><span>3</span></li>
-    <li><span>github</span></li>
-  </ul>
+  <div>
+    <h3>Work</h3>
+    <h2>Empathy is the Cornerstone</h2>
+    <!-- <span>UI & UX Design  •  Product Strategy  •  Clean Code</span> -->
+    <p>Passionate about CSS, Product Strategy, Clean Code, and Education.</p>
+    <ul>
+      <li><span>Note: Make sense of the visuals through writing</span></li>
+      <li><span>Digital Shoebox</span></li>
+      <li><span>3</span></li>
+      <li><span>github</span></li>
+    </ul>
+  </div>
 </section>
 
 <section class="approach-container">
+  <div>
     <h3>Approach</h3>
-    <h2>Bringing Human Values into Development</h2>
+    <h2>Bringing Human Values into Web Development</h2>
     <p>To build a closer connection to the audience, the client and the browser.</p>
     <p> Reach  - Inspire - Excite</p>
     <div class="image-box">an image of somethingggg in this box</div>
+  </div>
+</section>
     
-
     <!-- <h2>User-centric design</h2>
     <p>Quality products provide a service that people need, can use intuitively, and remember amongst the sea of competition.</p> -->
+    
+
 
 <section class="skills-class">
   <h2>Skills</h2>
-  <ul>
+  <ul class="skills-container">
     <li>
       <ion-icon name="logo-css3"></ion-icon>
       <span>CSS</span></li>
@@ -104,18 +115,18 @@ what theyre looking for -->
 <footer class="footer">
   <div class="footer-container">
     <div class="footer-bio">
-        <h3>Mel Jones</h3>
+        <h4>Mel Jones</h4>
         <!-- <p>Driven by curiousity</p>  -->
         <p>Prior to teaching myself to code, I ran fashion retail stores in Berlin and Melbourne for companies big and small. Brands included Urban Outfitters, Ben Sherman, Just Group, Smiggle, and more. I love Humans and I can mix a mean cocktail. ✨🌏💘🚀</p>
         <!-- <p>Prior to joining Squarespace, I ran Made by Eno as an independent product design and strategy consultant to launch award winning products for companies large and small. Clients included AMEX, RetailMeNot, The New York Times, OneRecord, FreshDirect, Quirky, Twitter, and more.</p> -->
     </div>
     
 
-    <ul>
-        <li><a href=/ ><span><ion-icon id="mail" name="mail"></ion-icon></span></a></li>
-        <li><a href=/ ><span><ion-icon id="linkedin" name="logo-linkedin"></ion-icon></span></a></li>
-        <li><a href=/ ><span><ion-icon id="twitter" name="logo-twitter"></ion-icon></span></a></li>
-        <li><a href=/ ><span><ion-icon id="instagram" name="logo-instagram"></ion-icon></span></a></li>
+    <ul class="social-container">
+        <li><a href=/ ><span><ion-icon class="social-links" id="mail" name="mail"></ion-icon></span></a></li>
+        <li><a href=/ ><span><ion-icon class="social-links" id="linkedin" name="logo-linkedin"></ion-icon></span></a></li>
+        <li><a href=/ ><span><ion-icon class="social-links" id="twitter" name="logo-twitter"></ion-icon></span></a></li>
+        <li><a href="https://www.instagram.com/moody.bones/" ><span><ion-icon class="social-links" id="instagram" name="logo-instagram"></ion-icon></span></a></li>
     </ul>
   </div>
 </footer>
