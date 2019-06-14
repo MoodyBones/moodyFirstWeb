@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,400i,600|Noto+Sans+KR:300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,700|Open+Sans+Condensed:300,700|Playfair+Display+SC:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   
 </head>
@@ -32,16 +32,13 @@ what theyre looking for -->
 </nav>
 
 <header class="head">
-  <div class="size-container">
+  <div class="head-wrapper">
     <div class="head-container">
-    <!-- <span class="grid-photo">
-      <img src="./moody-bones.jpg" width="100px">
-    </span> -->
-    <div class="grid-h1">
+    <div class="grid-name">
       <h1>Mel Jones</h1>
     </div>
-    <div class="grid-h3">
-        <h3>Mel is a Self-Taught Frontend Dev blah blah some bio here</h3>
+    <div class="grid-bio">
+        <span>Mel Makes Web Stuff ✨🌏💘🚀</span>
     </div>
     <ul class="social-container">
       <li><a href=/ ><span><ion-icon class="social-links" id="mail" name="mail"></ion-icon></span></a></li>
@@ -56,27 +53,37 @@ what theyre looking for -->
 
 <!-- see https://www.madebyeno.com/ for work layout -->
 <section class="work-container">
-  <div>
+  <div class="work-head">
     <h3>Work</h3>
     <h2>Empathy is the Cornerstone</h2>
     <!-- <span>UI & UX Design  •  Product Strategy  •  Clean Code</span> -->
     <p>Passionate about CSS, Product Strategy, Clean Code, and Education.</p>
-    <ul>
-      <li><span>Note: Make sense of the visuals through writing</span></li>
-      <li><span>Digital Shoebox</span></li>
-      <li><span>3</span></li>
-      <li><span>github</span></li>
+  </div> 
+    <ul class="work-wrapper">
+      <li>
+        <div class="img-box"></div>
+        <span>Note: Make sense of the visuals through writing</span></li>
+      <li>
+        <div class="img-box"></div>
+        <span>Digital Shoebox</span></li>
+      <li>
+        <div class="img-box"></div>  
+        <span>3</span></li>
+      <li>
+        <div class="img-box"></div>
+        <span>github</span></li>
     </ul>
-  </div>
+
 </section>
 
+<div class="approach-skill-wrapper">
 <section class="approach-container">
-  <div>
+  <div class="approach-head">
     <h3>Approach</h3>
     <h2>Bringing Human Values into Web Development</h2>
     <p>To build a closer connection to the audience, the client and the browser.</p>
     <p> Reach  - Inspire - Excite</p>
-    <div class="image-box">an image of somethingggg in this box</div>
+    <div class="approach-image">an image of somethingggg in this box</div>
   </div>
 </section>
     
@@ -85,25 +92,30 @@ what theyre looking for -->
     
 
 
-<section class="skills-class">
+<section class="skills-container">
   <h2>Skills</h2>
-  <ul class="skills-container">
+  <ul class="skills-box">
     <li>
       <ion-icon name="logo-css3"></ion-icon>
-      <span>CSS</span></li>
+      <h3>CSS</h3></li>
     <!-- maybe add icons too?? -->
-    <li><span>React</span></li>
+    <li><h3>React</h3></li>
     <li>
       <ion-icon name="logo-javascript"></ion-icon>
-      <span>JavaScript</span></li>
+      <h3>JavaScript</h3></li>
     <li>
       <ion-icon name="logo-html5"></ion-icon>
-      <span>HTML</span></li>
+      <h3>HTML</h3></li>
   </ul>
 </section>
 
+</div>
+
 
 <section class="contact-container">
+  <span class="grid-photo">
+    <img src="./moody-bones.jpg" width="100px">
+  </span>
   <h2>Mel is a Self-Taught Frontend Dev</h2>
   <p>An Australian based in Berlin</p>
   <h3>Want to get in touch?</h3>
@@ -115,18 +127,18 @@ what theyre looking for -->
 <footer class="footer">
   <div class="footer-container">
     <div class="footer-bio">
-        <h4>Mel Jones</h4>
+        <!-- <h4>Mel Jones</h4> -->
         <!-- <p>Driven by curiousity</p>  -->
-        <p>Prior to teaching myself to code, I ran fashion retail stores in Berlin and Melbourne for companies big and small. Brands included Urban Outfitters, Ben Sherman, Just Group, Smiggle, and more. I love Humans and I can mix a mean cocktail. ✨🌏💘🚀</p>
+        <p>Prior to teaching myself to code, I ran fashion retail stores in Berlin and Melbourne for companies big and small. Brands included Urban Outfitters, Ben Sherman, Just Group, Smiggle, and more. I love Planet Earth 🌏and I can mix a mean cocktail 🍸.</p>
         <!-- <p>Prior to joining Squarespace, I ran Made by Eno as an independent product design and strategy consultant to launch award winning products for companies large and small. Clients included AMEX, RetailMeNot, The New York Times, OneRecord, FreshDirect, Quirky, Twitter, and more.</p> -->
-    </div>
+      </div>
     
 
     <ul class="social-container">
-        <li><a href=/ ><span><ion-icon class="social-links" id="mail" name="mail"></ion-icon></span></a></li>
-        <li><a href=/ ><span><ion-icon class="social-links" id="linkedin" name="logo-linkedin"></ion-icon></span></a></li>
-        <li><a href=/ ><span><ion-icon class="social-links" id="twitter" name="logo-twitter"></ion-icon></span></a></li>
-        <li><a href="https://www.instagram.com/moody.bones/" ><span><ion-icon class="social-links" id="instagram" name="logo-instagram"></ion-icon></span></a></li>
+        <li><a href=/ ><h3><ion-icon class="social-links" id="mail" name="mail"></ion-icon>jones.mel@gmail.com</h3></a></li>
+        <li><a href=/ ><h3><ion-icon class="social-links" id="linkedin" name="logo-linkedin"></ion-icon>Mel Jones</h3></a></li>
+        <li><a href=/ ><h3><ion-icon class="social-links" id="twitter" name="logo-twitter"></ion-icon>@_moodybones</h3></a></li>
+        <li><a href="https://www.instagram.com/moody.bones/" ><h3><ion-icon class="social-links" id="instagram" name="logo-instagram"></ion-icon>@moody.bones</h3></a></li>
     </ul>
   </div>
 </footer>
