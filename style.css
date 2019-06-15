@@ -64,9 +64,14 @@ html {
   }
 }
 
-/* #page-padding {
-  margin: 0 10px;
-} */
+
+/* 
+TO DO
+  media queries!!!
+  DO FIRST, BEFORE YOU ADJUST ANY MORE PADDING!!
+
+  also get advice on layout!! am i using too much Padding??
+*/
 
 /* --------------------------------------------------------*/
 /* REUSABLE COMPONENTS */
@@ -92,6 +97,7 @@ h2 {
   font-size: 2.5rem;
   letter-spacing: .1rem;
   word-spacing: .2rem;
+  padding: 4rem 0;
 }
 
 h3 {
@@ -99,21 +105,26 @@ h3 {
   text-transform: uppercase;
   letter-spacing: .2rem;
   word-spacing: .2rem;
-  color: black;
 }
-
 
 
 
 /*--------------PARAGRAPHS------------------*/
 
-
+/* 
+TO DO
+  padding and line height and width
+*/
 
 /*--------------ICONS--------------------*/
 
 
 
 /*--------------LINKS--------------------*/
+/* 
+TO DO
+  Change links to opacity transform
+*/
 
 .nav-container > li > a:link,
 .nav-container > li > a:visited {
@@ -143,6 +154,7 @@ h3 {
     transition: color 0.2s;
 }
 
+
 .footer-social > li > a:link,
 .footer-social > li > a:visited {
     color: white;
@@ -151,7 +163,7 @@ h3 {
 
 .footer-social > li > a:hover,
 .footer-social > li > a:active {
-    color: #f2f2f2;
+    color: #f2f2f2f;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
@@ -165,6 +177,13 @@ h3 {
 /* --------------------------------------------------------*/
 /* NAV */
 /* --------------------------------------------------------*/
+
+/* 
+TO DO
+  padding bottom
+  align underline
+  remove underline from HAND
+*/
 
 .nav-container {
   padding-left: 3rem;
@@ -201,6 +220,17 @@ h3 {
 /* HEADER */
 /* --------------------------------------------------------*/
 
+/* 
+TO DO
+  Change picture maybe?
+  should it be fixed
+
+  does the card need work??
+  a border maybe?
+  full width??
+
+  maybe make the white border bigger
+*/
 
 .head { 
   height: 60vh;
@@ -331,6 +361,10 @@ h3 {
 /* SKILLS */
 /* --------------------------------------------------------*/
 
+/* To Do...
+Media queries for H3 font size
+& look at the way the skills wrap
+*/
 
 .skills-wrapper {
   background-color: #fff4ed;
@@ -366,6 +400,14 @@ h3 {
 /* CONTACT */
 /* --------------------------------------------------------*/
 
+/* 
+TO DO
+  EVERYTHING,
+  decide on a layout
+  do we like the card??
+  maybe break it up with a line, like jonas' cards
+*/
+
 .contact-container {
   margin: 5rem 5rem; 
   padding: 5rem 3rem;
@@ -376,6 +418,9 @@ h3 {
   box-shadow: 0px 0px 12px -2px lightgray;
 }
 
+.contact-quote {
+  font-size: 2rem;
+}
 
 
 
@@ -385,6 +430,12 @@ h3 {
 /* --------------------------------------------------------*/
 /* FOOTER */
 /* --------------------------------------------------------*/
+
+/* 
+TO DO
+  links and text?
+  icon in line with text
+*/
 
 .footer-container {
   padding: 2rem 5rem;
