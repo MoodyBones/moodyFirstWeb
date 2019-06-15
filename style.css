@@ -68,8 +68,8 @@ html {
 section {
   /* padding: 3em 0; */
   background-color: white;
-  border: 1px solid #fff4ed;
-  padding: 0 5rem;
+  /* border: 1px solid #fff4ed; */
+  /* padding: 0 5rem; */
 }
 
 
@@ -85,11 +85,12 @@ section {
 h1 {
   font-family: 'Open Sans Condensed', sans-serif;
   color: black;
-  font-size: 4rem;
-  font-weight: 400;
+  font-size: 3rem;
+  font-weight: 700;
   word-spacing: .2em;
   letter-spacing: .2em;
   text-transform: uppercase;
+  padding-left: 2rem;
 }
 
 h2 {
@@ -168,7 +169,6 @@ h3 {
   list-style: none;
   display: flex;
   align-items: flex-end;
-
 }
 
 .nav-container li:first-child {
@@ -207,17 +207,21 @@ h3 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  border: 2rem solid white;
+  border-left: 2rem solid white;
+  border-right: 2rem solid white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .head-wrapper {
-  /* width: 70vw; */
+
 }
 
 .head-container {
   background: white;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 1fr 1fr;
   padding: 1rem;
 /*  grid-auto-flow: column; */
@@ -225,7 +229,7 @@ h3 {
 
 
 .grid-name {
-  grid-column: 2 / span 5;
+  grid-column: 2 / -1;
   grid-row: 1 / span 1;
   display: flex;
   justify-content: center;
@@ -233,7 +237,7 @@ h3 {
 }
 
 .grid-bio {
-  grid-column: 2 / span 5;
+  grid-column: 2 / -1;
   grid-row: 2 / span 1;
   border-top: 1px solid rgb(74, 90, 211);
   display: flex;
@@ -243,7 +247,7 @@ h3 {
 
 .social-container {
   grid-column: 1 / span 1;
-  grid-row: 1 / span 2;
+  grid-row: 1 / -1;
   border-right: 1px solid rgb(74, 90, 211);
   list-style: none;
   display: flex;
@@ -266,10 +270,11 @@ h3 {
 
 .work-container {
   background: #fff4ed;
+  padding: 0 5rem; 
 }
 
 .work-head {
-  border-top: .5rem solid rgb(74, 90, 211);
+  border-top: .3rem solid rgb(74, 90, 211);
   /* border-bottom: .1rem solid rgb(74, 90, 211); */
   padding: 2rem 0;
 }
@@ -277,10 +282,10 @@ h3 {
 .work-wrapper {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 1rem;
-  margin: 4rem 0;
+  /* margin: 4rem 0; */
 }
 
 .work-wrapper > li {
@@ -300,19 +305,14 @@ h3 {
 /* APPROACH */
 /* --------------------------------------------------------*/
 
-.approach-skill-wrapper {
-  display: grid;
-}
-
-
 .approach-head {
   /* border-top: .5rem solid #f2f2f2; */
   /* border-bottom: .1rem solid rgb(74, 90, 211); */
-  padding: 2rem 0;
+  padding: 2rem 5rem;
 }
 
 .approach-image {
-  border: 2px dashed rgb(74, 90, 211);
+  border: 2px dashed #fff4ed;
   width: 400px;
   height: 400px;
 }
@@ -321,10 +321,36 @@ h3 {
 /* SKILLS */
 /* --------------------------------------------------------*/
 
-.skills-container {
+.skills-wrapper {
   list-style: none;
-  display: grid;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  border-top: .5rem dotted rgb(74, 90, 211);
+  border-bottom: .5rem solid rgb(74, 90, 211);
+  background: black;
+  color: #f2f2f2;
 }
+.skills-wrapper > li {
+  padding-top: 2rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.skills-wrapper li:first-child {
+  color: #white;
+}
+
+.skills-wrapper ion-icon {
+  color: white;
+  padding-bottom: .5rem;
+  font-size: 2rem;
+}
+
+.skills-wrapper h3 {
+  color: #f2f2f2;
+}
+
 
 
 
@@ -332,6 +358,9 @@ h3 {
 /* CONTACT */
 /* --------------------------------------------------------*/
 
+.contact-container {
+  padding: 2rem 5rem;
+}
 
 
 
@@ -342,5 +371,10 @@ h3 {
 /* FOOTER */
 /* --------------------------------------------------------*/
 
+footer {
+  background: rgb(74, 90, 211);
+  padding: 2rem 5rem;
+  color: #f2f2f2;
+}
 
 
