@@ -107,6 +107,14 @@ h3 {
   word-spacing: .2rem;
 }
 
+h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  word-spacing: .2rem;
+  font-weight: 300;
+}
+
 
 
 /*--------------PARAGRAPHS------------------*/
@@ -135,11 +143,12 @@ TO DO
 
 .nav-container > li > a:hover,
 .nav-container > li > a:active {
-    color: #555;
+    color: black;
     border-bottom: 1px solid rgb(74, 90, 211);
-    -webkit-transition: border-bottom 0.2s color 0.2s;
-    transition: border-bottom 0.2s color 0.2s;
+    -webkit-transition: border-bottom 0.3s color 0.3s;
+    transition: border-bottom 0.3s color 0.3s;
 }
+
 
 .head-container a:link,
 .head-container a:visited {
@@ -149,23 +158,23 @@ TO DO
 
 .head-container a:hover,
 .head-container a:active {
-    color: rgb(74, 90, 211);
-    -webkit-transition: color 0.2s;
-    transition: color 0.2s;
+    color: rgba(85, 85, 85, 0.8);
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
 }
 
 
 .footer-social > li > a:link,
 .footer-social > li > a:visited {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
 .footer-social > li > a:hover,
 .footer-social > li > a:active {
-    color: #f2f2f2f;
-    -webkit-transition: color 0.2s;
-    transition: color 0.2s;
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
 }
 
 
@@ -191,6 +200,7 @@ TO DO
   list-style: none;
   display: flex;
   align-items: flex-end;
+  padding-bottom: 3rem;
 }
 
 .nav-container li:first-child {
@@ -230,6 +240,8 @@ TO DO
   full width??
 
   maybe make the white border bigger
+
+  
 */
 
 .head { 
@@ -240,8 +252,8 @@ TO DO
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  border-left: 2rem solid white;
-  border-right: 2rem solid white;
+  /* border-left: 2rem solid white;
+  border-right: 2rem solid white; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -271,7 +283,7 @@ TO DO
 .grid-bio {
   grid-column: 2 / -1;
   grid-row: 2 / span 1;
-  border-top: 1px solid rgb(74, 90, 211);
+  border-top: 1px solid rgba(85, 85, 85, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -280,7 +292,7 @@ TO DO
 .social-container {
   grid-column: 1 / span 1;
   grid-row: 1 / -1;
-  border-right: 1px solid rgb(74, 90, 211);
+  border-right: 1px solid rgba(85, 85, 85, 0.8);
   list-style: none;
   display: flex;
   flex-direction: column-reverse;
@@ -314,6 +326,10 @@ TO DO
   padding: 3rem 0;
 }
 
+.work-head > h3 {
+  color: black;
+}
+
 .work-wrapper {
   list-style: none;
   display: grid;
@@ -339,6 +355,7 @@ TO DO
 /* --------------------------------------------------------*/
 /* APPROACH */
 /* --------------------------------------------------------*/
+
 .approach-container {
   padding: 0 5rem;
   padding-bottom: 5rem;
@@ -349,6 +366,10 @@ TO DO
   /* border-top: .5rem solid #f2f2f2; */
   /* border-bottom: .1rem solid rgb(74, 90, 211); */
   padding: 3rem 0;
+}
+
+.approach-head > h3 {
+  color: black;
 }
 
 .approach-image {
@@ -405,7 +426,11 @@ TO DO
   EVERYTHING,
   decide on a layout
   do we like the card??
+  i think we should remove the box shadow and stick ato a flat design
   maybe break it up with a line, like jonas' cards
+  it needs to change from horizontal to vertical at some point
+  image should change like barrack in this video
+  https://www.youtube.com/watch?v=zdkY7ymM0Qw
 */
 
 .contact-container {
@@ -417,6 +442,7 @@ TO DO
   align-items: center;
   box-shadow: 0px 0px 12px -2px lightgray;
 }
+
 
 .contact-quote {
   font-size: 2rem;
@@ -454,6 +480,12 @@ TO DO
 
 
 .footer-social > li {
-  margin: 1rem;
+  margin: 1.5rem;
+  text-align: center;
 }
 
+
+.footer-social ion-icon {
+  font-size: 1.8rem;
+  padding-bottom: 1.2rem;
+}
